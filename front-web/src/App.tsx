@@ -1,5 +1,6 @@
 //import React from 'react';
 import './App.css';
+import Navbar from './Navbar';
 //import Counter from './Counter';
 //import Hello from './Hello';
 
@@ -7,7 +8,8 @@ function App() {
   return (
     /* <h1>Hello world!</h1> 
        substituo o html pelo componente Hello.tsx     
-    */ 
+    */
+   //Atributos JSX :  
     /*<div >          
       <Hello message="Washington"/>
       <Hello message="Nélio"/>
@@ -20,7 +22,9 @@ function App() {
      <Counter />
    </div>
    */
-  <div>Hello</div>
+    <div>
+      <Navbar/>
+    </div>
   );
 }
 
