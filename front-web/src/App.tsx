@@ -1,12 +1,16 @@
 //import React from 'react';
 import './App.css';
 import Navbar from './Navbar';
-import Home from './Home';
+//import Home from './Home';
 //import Counter from './Counter';
 //import Hello from './Hello';
+import Routes from './Routes';
 
 function App() {
   return (
+    <Routes/> 
+  );
+}
     /* <h1>Hello world!</h1> 
        substituo o html pelo componente Hello.tsx     
     */
@@ -23,12 +27,13 @@ function App() {
      <Counter />
    </div>
    */
+  /*
     <div>
       <Navbar/>
       <Home/>
     </div>
-  );
-}
+    */
+
 
 /*function sum(num1: any, num2: any){
   return num1 + num2
