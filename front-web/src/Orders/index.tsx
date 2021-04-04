@@ -23,7 +23,9 @@ function Orders() {
     useEffect(() => {
         fetchProducts()
         .then(response => setProducts(response.data))
-        .catch(error => console.log(error))
+        .catch(() => {
+            toast.warning('Erro ao listar produtos');
+        })
     }, []);
 
     //quando clicar no item, para saber quais items foram selecionados
